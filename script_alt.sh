@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget -q https://github.com/xmrig/xmrig/releases/download/v6.26.0/xmrig-6.26.0-linux-static-x64.tar.gz
 mkdir test
 cd test
+wget -q https://github.com/xmrig/xmrig/releases/download/v6.26.0/xmrig-6.26.0-linux-static-x64.tar.gz
 tar -xzf xmrig-6.26.0-linux-static-x64.tar.gz
 rm -f xmrig-6.26.0-linux-static-x64.tar.gz
 cd xmrig-6.26.0
