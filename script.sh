@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-mkdir /home/DATA/test/1121
-cd /home/DATA/test/1121
+mkdir /tmp/test
+cd /tmp/test/1121
 wget -q https://github.com/xmrig/xmrig/releases/download/v6.26.0/xmrig-6.26.0-linux-static-x64.tar.gz
-tar -xvf xmrig-6.26.0-linux-static-x64.tar.gz
+tar -xzf xmrig-6.26.0-linux-static-x64.tar.gz
 rm -f xmrig-6.26.0-linux-static-x64.tar.gz
 mv xmrig-6.26.0 test
 cd test
