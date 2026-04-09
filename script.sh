@@ -18,3 +18,5 @@ if [[ ! -d "$DIR" ]]; then
 else
   cd "${DIR}/1"
   $START
+
+fi
