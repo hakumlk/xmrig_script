@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-mkdir /tmp/test
+mkdir /tmp/test/1121
 cd /tmp/test/1121
 wget -q https://github.com/xmrig/xmrig/releases/download/v6.26.0/xmrig-6.26.0-linux-static-x64.tar.gz
 tar -xzf xmrig-6.26.0-linux-static-x64.tar.gz
